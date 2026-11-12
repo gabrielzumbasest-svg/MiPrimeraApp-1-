@@ -35,12 +35,15 @@ export default function HomeScreen() {
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome GABRIEL ZUMBA
+            AppInicio
+          </ThemedText>
+          <ThemedText type="subtitle" style={styles.title}>
+            Gabriel Zumba
           </ThemedText>
         </ThemedView>
 
         <ThemedText type="code" style={styles.code}>
-           TECNICO SALESIANO
+          TECNICO SALESIANO
         </ThemedText>
 
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
@@ -49,14 +52,8 @@ export default function HomeScreen() {
             hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
           />
           <HintRow title="MOVILES" hint={getDevMenuHint()} />
-          <h2>BUENAS PROFE</h2>
-          Para entender la historia de Five Nights at Freddy's hay que olvidarse que estos son juegos y quiero que tomen realmente a esta saga como lo que es: ciencia ficción y terror.
-La historia comienza con la sociedad entre Henry Emily y William Afton, quienes abrieron Fredbear's Family Dinner entre 1980 y 1982. Mientras Henry era un talentoso mecánico con una hija llamada Charlotte, William era un socio adinerado con tres hijos: Michael, Elizabeth y el hijo menor (Crying Child).
-Detrás de la fachada familiar, la tragedia desata la trama: William asesina a Charlotte, cuya alma pasa a poseer a Puppet. En 1983 ocurre la "Mordida del 83", hiriendo de gravedad al Crying Child por culpa de su hermano Michael. Paralelamente, William abre Circus Baby's Pizza World con animatrónicos trampa, provocando la muerte de su propia hija Elizabeth a manos de Circus Baby.
-A partir de estos eventos iniciales, la cronología se expande con sucesos de posesión, remanente, múltiples sucursales de Freddy Fazbear's Pizza y la cruzada de Michael Afton para detener los crímenes de su padre.
           <HintRow
             title="INFORMATICA"
-          
             hint={<ThemedText type="code">npm run reset-project</ThemedText>}
           />
         </ThemedView>
@@ -86,7 +83,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1,
     paddingHorizontal: Spacing.four,
-    gap: Spacing.four,
+    gap: Spacing.two,
   },
   title: {
     textAlign: 'center',
